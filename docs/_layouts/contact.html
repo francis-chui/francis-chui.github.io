@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+   {% include head.html %}
+   <body>
+      {% include symbols.svg %}
+      {% include banner.html %}
+      {% include navigation.html %}
+      <div class="contact contact--inline">
+         <div class="contact__image">
+            <svg class="icon icon--x-large">
+                  <use xlink:href="#user"></use>
+            </svg>
+         </div>
+         <div class="contact__information">
+            <a href="https://people.csiro.au/Example" class="has-arrow">
+                  <h3 class="contact__heading">
+                     <span class="has-arrow__text">Contact name</span><span class="has-arrow__inner"></span>
+                  </h3>
+            </a>
+            <p class="contact__subtitle">Job title (Department)</p>
+            <div class="contact__details">
+                  <ul class="list--inline list--has-icons">
+                     <li class="contact__item">
+                        <svg class="icon icon--small icon--prepend phone" aria-hidden="true">
+                              <use xlink:href="#phone"></use>
+                           </svg>
+                        <a class="contact__link" href="tel:+6112345678">+61 1 1234 5678</a>
+                     </li>
+                     <li class="contact__item">
+                        <svg class="icon icon--small icon--prepend envelope" aria-hidden="true">
+                              <use xlink:href="#envelope"></use>
+                        </svg>
+                        <a href="mailto" class="contact__link contact__mail__link">Email Contact name</a>
+                     </li>
+                  </ul>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
