@@ -7,8 +7,8 @@ version: "3.8"
 services:
   ereefs-github-io:
     build: .
-    image: ereefs/ereefs-github-io
-    container_name: ereefs-github-io
+    image: francis-chui/francis-chui-github-io
+    container_name: francis-chui-github-io
     volumes:
       - ./docs/:/srv/jekyll/
       - ./start-jekyll-server.sh:/start-jekyll-server.sh

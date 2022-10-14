@@ -1,19 +1,11 @@
 ---
-layout: default
-title: eReefs
-nav_order: 1
-columns: 2
-has_children: true
+layout: home
+title: Home
+landing-title: 'Hi, my name is Forty'
+description: null
+image: null
+author: null
+show_tile: false
 ---
-eReefs - a world-first delivering vital information about the entire Great Barrier Reef from catchment to ocean
 
-<iframe class="grid__item" width="667" height="420" src="https://www.youtube-nocookie.com/embed/CpNlev-YFDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe class="grid__item" width="667" height="420" src="https://www.youtube-nocookie.com/embed/_L99gaUPdhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- 
-## Powered by eReefs
-{% for product in site.products %}
-  {{ product.content }}
-{% endfor %}
--->
+Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
